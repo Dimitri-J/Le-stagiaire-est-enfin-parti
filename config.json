@@ -1,0 +1,9 @@
+{
+    "user" : "py", 
+    "password" : "python",
+    "host" : "localhost", 
+    "port" : "3308",
+    "database" : "CHU",
+    "auth_plugin" : "mysql_native_password",
+    "raise_on_warnings" : true
+}

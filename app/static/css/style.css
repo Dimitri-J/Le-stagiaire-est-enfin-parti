@@ -1,0 +1,112 @@
+/*
+    classe = . 
+    id = #
+*/
+
+
+@-webkit-keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #19dcea;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+
+@-webkit-keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        opacity: 1;
+    }
+    }
+    @keyframes scale-in-center {
+    0% {
+        -webkit-transform: scale(0);
+                transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.info
+{
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+    text-align: center;
+    margin: 1% 0;
+    align-items:center;
+    justify-content:center;
+    vertical-align: middle;
+}
+
+.titre
+{
+    text-transform: uppercase;
+    color:blue;
+}
+
+
+.container_formulaire {
+    /* display: flex; */
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+.mb-3{
+    /* position: absolute;
+    left: 50%; */
+    text-align: center;
+    margin: auto;
+    /* display: flex; */
+  }
+
+.btn-success{
+    position: relative;
+    top: 10px;
+}
+
+.review{
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    /* align-items:center;
+    position: relative;
+    justify-content:center;
+    vertical-align: middle;
+    text-align: center; */
+}
+
+.container_result{
+    /* text-align: center;
+    position: relative;
+    margin: 1% 0;
+    align-items:center;
+    justify-content:center;
+    vertical-align: middle; */
+}
+.note{
+    font-size: 400%
+}

@@ -1,0 +1,22 @@
+{
+    "materiel" : [
+       {
+            "1" : ["moniteur", "28'" ,"bon état"]
+       },
+       {
+            "2" : ["TV", "32'", "cassée"]
+       },
+       {
+            "3" : ["souris", "10cm x 5cm", "très bon état"]
+       }
+    ],
+
+    "employé.e informatique" : [
+        {
+            "1" : ["Dupont", "Max", "64", "résponsable sécurité"]
+        },
+        {
+            "2" : ["Le Cunff", "Martin", "24", "développeur front-end"]
+        }
+    ]
+}
